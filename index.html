@@ -1,267 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover, shrink-to-fit=no">
-    <meta name="robots" content="index, follow">
-    <title>Spotlight.js &ndash; Modern HTML5 Image Gallery</title>
-    <script src="dist/spotlight.bundle.js"></script>
-    <!--<script src="dist/js/spotlight.min.js"></script>-->
-    <!--<link rel="stylesheet" href="dist/css/spotlight.min.css">-->
-    <!-- Custom Control: -->
-    <style>
-        /*
-         * Custom Control:
-         * ---------------
-         */
-        /* custom classes are always prefixed by "spl-" automatically */
-        .spl-like{
-            background-image: url(demo/gallery/heart-outline.svg);
-            background-size: 23px;
-        }
-        /* optionally, additional state to toggle the button: */
-        .spl-like.on{
-            background-image: url(demo/gallery/heart.svg);
-        }
-        /*
-         * Custom Animation:
-         * -----------------
-         */
-        /* custom scene transition (slide effect) */
-        .only-this-gallery.show .spl-scene{
-            transition: transform 0.2s ease;
-        }
-        /* custom animation "visible state" (css context by custom classname "only-this-gallery" to apply these animation just on a specific gallery) */
-        .only-this-gallery.show .spl-pane > *{
-            clip-path: circle(100% at center);
-            transition: transform 0.35s ease,
-                        opacity 0.65s ease,
-                        clip-path 0.8s ease;
-        }
-        /* custom animation "hidden state" ("custom" is the name of the animation you pass as gallery option) */
-        .only-this-gallery .spl-pane .custom {
-            clip-path: circle(0px at center) ;
-            transition: transform 0.65s ease,
-                        opacity 0.65s ease;
-        }
-        /* animation state when gallery is hidden */
-        #spotlight.only-this-gallery{
-            clip-path: circle(0px at center);
-        }
-        /* animation state when gallery will open */
-        #spotlight.only-this-gallery.show{
-            clip-path: circle(100% at center);
-            transition: clip-path 0.65s ease 0.15s;
-        }
-    </style>
-    <link rel="stylesheet" href="demo/style.css">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="description" content="Web's most easy to integrate lightbox gallery library. Super-lightweight, outstanding performance, no dependencies.">
-    <meta name="keywords" content="gallery, lightbox, photo-gallery, javascript-library, image-viewer, lightbox-gallery-plugin, gallery-plugin, gallery-extension, gallery-widget, lightbox-gallery, gallery-template, gallery-viewer, gallery-simple, lightbox-plugin">
-    <meta name="thumbnail" content="https://nextapps-de.github.io/spotlight/demo/favicon.png">
-    <meta property="og:url" content="https://nextapps-de.github.io/spotlight/">
-    <meta property="og:site_name" content="Spotlight.js - Modern HTML5 Image Gallery">
-    <meta property="og:image" content="https://nextapps-de.github.io/spotlight/demo/og-image.png">
-    <meta property="og:title" content="Spotlight.js - Modern HTML5 Image Gallery">
-    <meta property="og:description" content="WinBox is the web's most easy to integrate lightbox gallery library. Super-lightweight, outstanding performance, no dependencies.">
-    <meta property="og:type" content="Software">
-    <meta property="og:url" content="https://nextapps-de.github.io/spotlight/">
-    <link rel="icon" sizes="16x16 32x32 48x48 64x64" type="image/png" href="https://nextapps-de.github.io/spotlight/demo/favicon.png">
-    <link rel="icon" sizes="512x512 1024x1024" type="image/png" href="https://nextapps-de.github.io/spotlight/demo/og-image.png">
-</head>
-<body>
-    <br>
-    <h1>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Alula Project</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>LB Boado Construction and Hauling</h1>
+        <h2>10,000,000 Quality Chickens per month<br>
+        Brgy.Alula Talugtug Nueva Ecija</h2>
+        <a href="Gallery.html" class="button">Gallery</a>
+        <a href="Team.html" class="button2">Team</a>
+        <a href="" class="button3">Contact Us</a>
+        <a href="" class="button4">Downloads</a>
+        <div class="Blogo"></div>
+        <div class="Hlogo"></div>
+        <div class="Klogo"></div>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content" class="ppp">
+
+        <h1>Company Profile</h1>
+        <p>LB BOADO CONSTRUCTION AND HAULING is the offshoot of San Lorenzo Sand and Gravel which was established in 1994 by Eduardo Oda Boado. With the continuous growth of the business, a new line of business sprouted - THE LB BOADO CONSTRUCTION AND HAULING
+          <br><br>
+          LB BOADO CONSTRUCTION AND HAULING is the brainchild of EDUARDO ODA BOADO and his spouse Lady Byrd Oris Boado, both hail from Binalonan, Pangasinan. The company is a single proprietorship engaged in the construction and hauling business.
+          <br><br>
+          LB BOADO CONSTRUCTION AND HAULING is a legitimate construction firm existing under the laws of the Philippines, Managed by a team dynamic and seasoned professionals who all come from the local construction industry. LB BOADO CONSTRUCTION AND HAULING upholds the standard of professionalism, integrity, moral values and continous innovation with industry best practices. Equipped with the necessary technical know-how and logistical resource, our valued clients are guaranteed of quality services and projects with integrety.</p>
+
         
-    </h1>
-    <a href="https://github.com/nextapps-de/spotlight">LB Boado Construction and hauling</a><br>
-    <hr>
-    <br>
-    <b>Anchors &amp; Images</b>
-    <div class="spotlight-group" data-fit="cover" data-autohide="all">
-        <a class="spotlight" href="demo/gallery/SDP2.jpg" data-button="Click Me!" data-button-href="javascript:alert('You can open an URL or execute some Javascript here.')" data-description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.">
-            <img src="demo/gallery/SDP2.jpg" alt="Lorem ipsum dolor sit amet">
-        </a>
-        <a class="spotlight" href="demo/gallery/DDressing plant.jpg" data-description="Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.">
-            <img src="demo/gallery/DDressing plant.jpg" alt="At vero eos et accusam">
-        </a>
-        <a class="spotlight" href="demo/gallery/HDP.jpg" data-description="In hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.">
-            <img src="demo/gallery/HDP.jpg" alt="Duis autem vel eum iriure dolor">
-        </a>
-        <a class="spotlight" href="demo/gallery/admin.PNG" data-description="In hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.">
-            <img src="demo/gallery/admin.PNG    " alt="Duis autem vel eum iriure dolor">
-        </a>
-        <a class="spotlight" href="demo/gallery/Hachery2.jpg" data-description="In hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.">
-            <img src="demo/gallery/Hachery2.jpg    " alt="Duis autem vel eum iriure dolor">
-        
-        <a class="spotlight" href="demo/gallery/POWERPLANT1.PNG" data-description="In hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.">
-            <img src="demo/gallery/POWERPLANT1.PNG" alt="Duis autem vel eum iriure dolor">
-        </a>
 
-        <a class="spotlight" href="demo/gallery/GATE1.jpg" data-description="In hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.">
-            <img src="demo/gallery/GATE1.jpg" alt="Duis autem vel eum iriure dolor">
-        </a>
+        <h2>Mission Statement</h2>
+        <p>To Consistently provide the best construction experience through:
+          <br><br>
+        -->Business relationships with honor and reliability
+        <br><br>
+        -->On-time delivery of excellent services that suits the clients' needs and requirements</p>
+        <h2>Vision Statement</h2>
+        <p>To be the most-sought and recognized construction and hauling company in the industry, with the highest level of standard, empowered by the Professionals with excellent expertise.</p>
+       </section>
 
-        <a class="spotlight" href="demo/gallery/HOUSING.PNG" data-description="In hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.">
-            <img src="demo/gallery/HOUSING.PNG" alt="Duis autem vel eum iriure dolor">
-        </a>
+        <aside id="sidebar">
+          <a href="" class="button">
+            <small>Main Road Plan</small>
+            Download
+          </a>
+          <a href="" class="button">
+            <small>Secondary Road Plan</small>
+            Download
+          </a>
 
-        <a class="spotlight" href="demo/gallery/HOUSING3.PNG" data-description="In hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.">
-            <img src="demo/gallery/HOUSING3.PNG" alt="Duis autem vel eum iriure dolor">
-        </a>
+          <p class="repo-owner">King B and Hasdaq International Holdings </a>.</p>
 
-
+          <p>All Rights Reserved 2021 <br> <br> <br> <br>c</p>
+          
+        <div class="Klogo2"></div>
+        <div class="Blogo2"></div>
+        <div class="Hlogo2"></div>
+        </aside>
+      </div>
     </div>
-    <br><br>
-   
-    <br><br>
-    <script>
 
-        /* Full example of API usage including "like button" as a custom control */
-
-        //import Spotlight from "./src/js/spotlight.js";
-
-        (function(){
-
-            const gallery = [{
-
-                title: "Lorem ipsum dolor sit amet",
-                description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-                src: "demo/gallery/london-1758181.jpg",
-                button: "Download Image",
-                onclick: Spotlight.download,
-                like: false
-            },{
-                title: "At vero eos et accusam",
-                description: "Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
-                src: "demo/gallery/sea-1975403.jpg",
-                button: "Next Slide",
-                onclick: Spotlight.next,
-                like: false,
-            },{
-                title: "Duis autem vel eum iriure dolor",
-                description: "In hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim.",
-                src: "demo/gallery/newport-beach-2089906.jpg",
-                button: "Close Gallery",
-                onclick: Spotlight.close,
-                like: false
-            }/*,{
-                media: "node",
-                control: "next,prev,close",
-                src: (function(){
-                    const iframe = document.createElement("iframe");
-                    iframe.src = "https://www.youtube.com/embed/tgbNymZ7vqY";
-                    return iframe;
-                }())
-            }*/];
-
-            window.showGallery = function(index){
-
-                const control = to_array(document.getElementById("control").getElementsByTagName("input"));
-                const animation = to_array(document.getElementById("animation").getElementsByTagName("input"));
-                const modifier = document.getElementById("modifier").getElementsByTagName("input");
-
-                // store the button element to apply dom changes to it
-                let like;
-                // store the current index
-                let slide = 0;
-
-                function handler(){
-
-                    // get the current like state
-                    // at this point we use the stored last index from the variable "slide"
-                    const current_like_state = !gallery[slide].like;
-
-                    // toggles the current like state
-                    gallery[slide].like = current_like_state;
-
-                    // assign the state as class to visually represent the current like state
-                    this.classList.toggle("on");
-
-                    if(current_like_state){
-
-                        // do something if liked ...
-                    }
-                    else{
-
-                        // do something if unliked ...
-                    }
-                }
-
-                const options = {
-
-                    class: "only-this-gallery",
-                    index: index,
-                    control: control,
-                    animation: animation,
-                    // fires when gallery opens
-                    onshow: function(index){
-
-                        // the method "addControl" returns the new created control element
-                        like = Spotlight.addControl("like", handler);
-                    },
-                    // fires when gallery change to another page
-                    onchange: function(index, options){
-
-                        // store the current index for the button listener
-                        // the slide index start from 1 (as "page 1")
-                        slide = index - 1;
-
-                        // initially apply the stored like state when slide is openened
-                        // at this point we use the stored like element
-                        like.classList.toggle("on", gallery[slide].like);
-                    },
-                    // fires when gallery is requested to close
-                    onclose: function(index){
-
-                        // remove the custom button, so you are able
-                        // to open next gallery without this custom control
-                        Spotlight.removeControl("like");
-                    }
-                };
-
-                assign(options, modifier);
-
-                Spotlight.show(gallery, options);
-            };
-
-            /* helper functions to assign options for the demo page, so skip this part from here */
-
-            function to_array(nodelist){
-
-                const arr = [];
-
-                for(let i = 0, node; i < nodelist.length; i++){
-
-                    node = nodelist[i];
-                    node.checked && arr.push(node.value);
-                }
-
-                return arr;
-            }
-
-            function assign(options, nodelist){
-
-                for(let i = 0, node; i < nodelist.length; i++){
-
-                    node = nodelist[i];
-
-                    if(node.checked){
-
-                        if(node.name){
-
-                            options[node.name] = node.value;
-                        }
-                        else{
-
-                            options[node.value] = node.checked;
-                        }
-                    }
-                }
-            }
-
-        }());
-
-    </script>
-</body>
+  </body>
 </html>
